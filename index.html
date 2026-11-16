@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RainRoot · L’eau de pluie, remise au travail</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div class="ban">Version de démonstration : la connexion et les paiements (Wave, Orange Money) sont simulés.</div>
+<header><div class="wrap"><button class="logo" onclick="go('home')" aria-label="Accueil RainRoot"><svg width="28" height="28" viewBox="0 0 24 24" fill="#0B7A75"><path d="M12 2C8 8 5 11.5 5 15a7 7 0 0 0 14 0c0-3.500-3-7-7-13z"/></svg>RainRoot</button>
+<button onclick="document.body.classList.toggle('big')" aria-label="Agrandir le texte">A+ Texte</button><span id="who"></span></div></header>
+<main id="app" aria-live="polite"></main>
+<button class="help" onclick="alert('Besoin d’aide ? Appelez le 33 800 00 00 (8 h à 18 h). Suivez les étapes numérotées : un seul objectif par écran.')">Besoin d’aide ?</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script></body></html>
